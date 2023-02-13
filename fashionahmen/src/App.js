@@ -5,14 +5,14 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <button>arrow</button>
-        <p>logo here</p>
+        <button><div className="spanone"/> <div className="spantwo"/></button>
+        <p className="logo">logo here</p>
       </div>
       <div className="middle">
         <div className="item">
-          <button>left button</button>
+          <button>left</button>
           <p>img of item</p>
-          <button>right button</button>
+          <button>right</button>
         </div>
         <div className="itemswap">
           <button>dots </button>
@@ -20,8 +20,8 @@ function App() {
       </div>
       <div className="nameprice">
         <div className="name">
-          <p>BLACK HOODIE</p>
-          <p> HANMA store </p>
+          <p className='unitname'>BLACK HOODIE</p>
+          <p className="strokename"> HANMA store </p>
         </div>
         <div className="price">
           <p>3600 DZD </p>
@@ -29,9 +29,9 @@ function App() {
       </div>
       <div className="bottom">
         <div className="colors">  
-          <p> color </p>
-          <button> white </button>
-          <button> BLACK </button>
+          <p> color: </p>
+          <button className='firstcolor'> white </button>
+          <button className="secondcolor"> BLACK </button>
         </div>
         <div className="buyheart">
           <button>BUY NOW </button>
@@ -40,7 +40,6 @@ function App() {
       </div>
       
         
-      ahmed fashion show
     </div>
   );
 }
