@@ -1,21 +1,27 @@
 
 import './App.css';
+import hoodie from './imgs/hoodie.png'
+import leftb from './imgs/arow.svg'
+import logo from './imgs/hanmalogo.svg'
+import heart from './imgs/heart.svg'
+import circle from './imgs/circle.svg'
+
 
 function App() {
   return (
     <div className="App">
       <div className="header">
-        <button><div className="spanone"/> <div className="spantwo"/></button>
-        <p className="logo">logo here</p>
+        <button><img src={leftb} alt="goback"/></button>
+        <img src={logo} alt="logo" className="logo"/>
       </div>
       <div className="middle">
         <div className="item">
-          <button>left</button>
-          <p>img of item</p>
-          <button>right</button>
+          <button><img src={leftb} alt="leftbtn"/> </button>
+          <img src={hoodie} alt="hoodie"/>
+          <button><img src={leftb} alt="leftbtn" className="rightb"/></button>
         </div>
         <div className="itemswap">
-          <button>dots </button>
+          <button><img src={circle} alt="circle"/> </button>
         </div>
       </div>
       <div className="nameprice">
@@ -35,7 +41,7 @@ function App() {
         </div>
         <div className="buyheart">
           <button>BUY NOW </button>
-          <p> heart pic </p>
+          <img src={heart} alt="heart"/>
         </div>
       </div>
       

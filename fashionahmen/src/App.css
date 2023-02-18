@@ -17,20 +17,18 @@
   height:47px;
   width:47px;
   margin-left:18px;
+  border-radius:100%;
+  background-color:rgba(217,217,217,29);
+  border:0;
+  cursor:pointer;
 
 }
 .header .logo{
   margin-right:25px;
+  width:10%;
 }
 
-.header button .spanone{
-  border: 1px solid black;
-  transform: rotate(10deg);
-}
-.header button .spantwo{
-  border: 1px solid black;
-  transform: rotate(-45deg);
-}
+
 
 .middle{
   height:318px;
@@ -47,15 +45,23 @@
 }
 
 .item button{
-  width:43px;
-  height:43px;
+  all:unset;
+  cursor:pointer;
   margin-top:50%;
-  border-radius:17px;
+}
+
+.rightb{
+  transform:rotate(180deg);
 }
 
 .middle .itemswap{
   height:13px;
   width:50px;
+}
+
+.itemswap button{
+  all:unset;
+  cursor: pointer;
 }
 
 .nameprice{
