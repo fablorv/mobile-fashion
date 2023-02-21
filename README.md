@@ -1,1 +1,1 @@
-# new repo in ubuntu imma make it work
+# phone size page styled in css
