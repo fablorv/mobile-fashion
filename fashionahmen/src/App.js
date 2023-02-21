@@ -8,6 +8,8 @@ import circle from './imgs/circle.svg'
 
 
 function App() {
+
+
   return (
     <div className="App">
       <div className="header">
@@ -21,7 +23,9 @@ function App() {
           <button><img src={leftb} alt="leftbtn" className="rightb"/></button>
         </div>
         <div className="itemswap">
-          <button><img src={circle} alt="circle"/> </button>
+          <button ><img className="swapimg" src={circle} alt="circle"/> </button>
+          <button><img  className="swapimg" src={circle} alt="circle"/> </button>
+          <button><img className="swapimg" src={circle} alt="circle"/> </button>
         </div>
       </div>
       <div className="nameprice">

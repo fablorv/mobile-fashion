@@ -11,6 +11,7 @@
 .header{
   display:flex;
   justify-content:space-between;
+  margin-top:6%;
 }
 
 .header button{
@@ -37,6 +38,8 @@
 .item{
   display:flex;
   justify-content:space-around;
+  margin-top:10%;
+  margin-left:7%;
 }
 
 .item p{
@@ -47,7 +50,11 @@
 .item button{
   all:unset;
   cursor:pointer;
-  margin-top:50%;
+}
+
+.item img{
+  margin-left:5%;
+  margin-right:5%;
 }
 
 .rightb{
@@ -57,13 +64,18 @@
 .middle .itemswap{
   height:13px;
   width:50px;
+  margin-left:45%;
 }
 
 .itemswap button{
   all:unset;
   cursor: pointer;
+  margin:3%;
 }
+.itemswap img{
 
+  opacity:50%;
+}
 .nameprice{
   display:flex;
   justify-content:space-between;
@@ -75,23 +87,23 @@
   font-style:normal;
   font-size: 30px;
   line-height:48px;
+  font-weight:900;
   color: #22A39F;
   -webkit-text-stroke: 0.5px black;
   margin:0;
 }
 
 .name{
-  margin-left:5%;
+  margin-left:6%;
 }
 
 .name .unitname{
   font-family: 'Bebas Neue';
   font-style:normal;
   font-size: 25px;
-  font-weight:700;
+  font-weight:900;
   color: #000000;
   margin:0;
-  line-height:48px;
 
 }
 
@@ -107,8 +119,11 @@
 }
 
 .colors{
+  margin-top:7%;
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
+  width:70%;
+  margin-left:8%;
 }
 
 .colors p{
@@ -142,6 +157,7 @@
 .buyheart{
   display:flex;
   justify-content:space-around;
+  margin-top:10%;
 }
 
 .buyheart button{
